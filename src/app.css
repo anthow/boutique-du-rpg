@@ -2,8 +2,8 @@
 
 @font-face {
     font-family: 'Final Fantasy';
-    src: url('src/font/New.woff2') format('woff2'),
-        url('New.woff') format('woff');
+    src: url('./../src/font/New.woff2') format('woff2'),
+        url('./../src/font/New.woff2') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
