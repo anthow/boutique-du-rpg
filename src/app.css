@@ -2,8 +2,8 @@
 
 @font-face {
     font-family: 'Final Fantasy';
-    src: url('/../src/font/New.woff2') format('woff2'),
-        url('/../src/font/New.woff2') format('woff');
+    src: url('https://res.cloudinary.com/liono/raw/upload/v1661110313/New_hsft2g.woff2') format('woff2'),
+        url('https://res.cloudinary.com/liono/raw/upload/v1661110313/New_hsft2g.woff2') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
