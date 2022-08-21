@@ -35,7 +35,7 @@
 		</div>
 		<div class=" flex flex-col gap-y-10 items-center ">
 			<div class="place-items-center mt-10 ">
-				<button class="ff7 text-5xl py-5 p-10	">INSCRIPTION</button>
+				<button class="ff7 text-5xl py-5 p-10">INSCRIPTION</button>
 			</div>
 			<div class="flex gap-x-5 items-center">
 				<a href="https://www.twitch.tv/la_boutique_du_rpg" target="_blank" rel="noreferrer">
