@@ -6,7 +6,8 @@
 
 <header class="p-2 sticky top-0 z-50 flex items-center bg-fond flex-row justify-between">
   <article>
-     <h1 class=" text-xl md:text-2xl">LA BOUTIQUE DU RPG </h1>
+    <a href="./">
+     <h1 class=" text-xl md:text-2xl">LA BOUTIQUE DU RPG </h1></a>
   </article>
   <nav class="flex gap-x-2   md:gap-x-5 items-center">
     <a href="https://www.twitch.tv/la_boutique_du_rpg" target="_blank" rel="noreferrer" >
