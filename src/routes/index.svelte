@@ -7,7 +7,12 @@
 		faFacebook,
 		faInstagram
 	} from '@fortawesome/free-brands-svg-icons/index.es';
-	import{faShop, faBroom, faCartShopping,faTruckFast} from '@fortawesome/free-solid-svg-icons/index.es';
+	import {
+		faShop,
+		faBroom,
+		faCartShopping,
+		faTruckFast
+	} from '@fortawesome/free-solid-svg-icons/index.es';
 </script>
 
 <article class="header p-20   headbody header opacity-70 m-auto text-center mb-10 ">
@@ -18,7 +23,6 @@
 </article>
 
 <article class=" w-10/12 m-auto flex flex-col gap-y-20 mb-10   bg-fond m-auto">
-
 	<section class=" flex flex-col gap-y-10 md:grid grid-cols-4 gap-x-20">
 		<div class=" ff7 flex flex-col gap-y-10 m-auto text-lg col-span-3">
 			<p class="text-center">
@@ -35,17 +39,27 @@
 		</div>
 		<div class=" flex flex-col gap-y-10 items-center ">
 			<div class="place-items-center mt-10 ">
-				<button class="ff7 text-5xl py-5 p-10">INSCRIPTION</button>
+				<a href="./newsletter">
+					<button class="ff7 text-5xl py-5 p-10">INSCRIPTION</button>
+				</a>
 			</div>
 			<div class="flex gap-x-5 items-center">
 				<a href="https://www.twitch.tv/la_boutique_du_rpg" target="_blank" rel="noreferrer">
 					<Fa icon={faTwitch} size="2x" />
 				</a>
-				<a href="https://www.youtube.com/channel/UCyKYurmFpp79ZPGsyfIleVg" target="_blank" rel="noreferrer" >
-				<Fa icon={faYoutube} size="2x" />
+				<a
+					href="https://www.youtube.com/channel/UCyKYurmFpp79ZPGsyfIleVg"
+					target="_blank"
+					rel="noreferrer"
+				>
+					<Fa icon={faYoutube} size="2x" />
 				</a>
-				<Fa icon={faFacebook} size="2x" />
-				<Fa icon={faInstagram} size="2x" />
+				<a href="https://www.facebook.com/Laboutiquedurpg/" target="_blank" rel="noreferrer">
+					<Fa icon={faFacebook} size="2x" />
+				</a>
+				<a href="https://www.instagram.com/boutiquedurpg/" target="_blank" rel="noreferrer">
+					<Fa icon={faInstagram} size="2x" />
+				</a>
 			</div>
 		</div>
 	</section>
@@ -59,9 +73,8 @@
 		<div class="flex flex-col space-y-5 items-center justify-between">
 			<div class="ff7">
 				<Fa icon={faBroom} size="2x" />
-				
 			</div>
-			<p class="text-xl text-center"> Reconditionnement</p>
+			<p class="text-xl text-center">Reconditionnement</p>
 		</div>
 		<div class="flex flex-col space-y-5 items-center justify-between">
 			<div class="ff7">

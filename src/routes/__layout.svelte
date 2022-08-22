@@ -15,10 +15,17 @@
   <a href="https://www.youtube.com/channel/UCyKYurmFpp79ZPGsyfIleVg" target="_blank" rel="noreferrer" >
     <Fa icon={faYoutube} size="1x" />
     </a>
-			 <Fa icon={faFacebook} size="1x" />
-			 <Fa icon={faInstagram} size="1x" />
-       <button class="ff7 text-2xl ml-2 py-1 px-1	">INSCRIPTION</button>
+    <a href="https://www.facebook.com/Laboutiquedurpg/" target="_blank" rel="noreferrer">
 
+			 <Fa icon={faFacebook} size="1x" />
+       </a>
+       <a href="https://www.instagram.com/boutiquedurpg/" target="_blank" rel="noreferrer">
+
+			 <Fa icon={faInstagram} size="1x" />
+       </a>
+       <a href="./newsletter">
+       <button class="ff7 text-2xl ml-2 py-1 px-1	">INSCRIPTION</button>
+      </a>
   </nav>
 </header>
   <main class="relative">
